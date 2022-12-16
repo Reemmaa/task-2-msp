@@ -1,0 +1,100 @@
+.nav-bar{
+    background-color: black;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+.nav-img{
+    width: 30%;
+    float: left;
+}
+
+.nav-content{
+    width: 40%;
+    float: right;
+}
+
+.nav-img img{
+width: 80px;
+height: 80px;
+padding-left: 20px;
+}
+
+.clearfix{
+    clear:both;
+}
+
+.nav-bar .nav-content ul li{
+    list-style: none;
+    float: left;
+    padding: 15px 22px;
+    font-size: 25px;
+}
+
+.nav-bar .nav-content ul li a{
+    text-decoration: none;
+    color: white;
+
+}
+
+.home{
+    background-image: url(sailboat.jpg);
+    height: 100vh;
+    background-size:  100% 100%;
+    overflow: auto;
+}
+
+.home-content{
+    text-align: center;
+    margin-top: 200px;
+    font-size: larger;
+}
+
+.home .home-content button{
+    padding: 12px 25px;
+    border-radius: 3px solid black;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+.our-team-heading{
+    text-align: center;
+    color: rgb(100, 219, 100);
+}
+.item{
+    float: left;
+    text-align: center;
+    width: 25%;
+}
+.item img{
+    border-radius: 50%;
+    border: 5px solid black;
+    border-radius: 50px;
+    outline-style: solid;
+    outline-color: tomato;
+    outline-width: 5px;
+}
+.our-team{
+  color: white;
+  width: 80%;
+  margin: auto;
+}
+
+.people-heading{
+    color: white;
+    text-align: center;
+    margin: 50px ;
+}
+
+.people-item{
+    width: 33.333%;
+    float: left;
+    text-align: center;
+    margin-left: 15px 0px;
+    
+    
+}
